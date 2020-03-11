@@ -1,6 +1,6 @@
 <?php
 
-// URL: http://localhost/myProject/jQueryTipCalc.php
+// URL: http://localhost/myProject/PHPTipCalc.php
 //phpinfo();
 
 ?>
