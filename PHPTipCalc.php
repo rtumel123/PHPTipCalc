@@ -66,11 +66,12 @@ $valid = true;
         }
 
         // convert output to integer to match DB value
-        $int = (int)$_POST['tipamt'];
+        $int = (int)$tiptotal;
+        echo $int;
     
         // Build Query
         $sql = "INSERT INTO tiplog (partyName, billAmt, serviceLevel, numPeople, tipAmt)
-                VALUES ('$_POST[resbox]','$_POST[billamt]','$_POST[serviceQual]','$_POST[peopleamt]','$int')";
+                VALUES ('$_POST[resbox]','$_POST[billamt]','$_POST[serviceQual]','$_POST[peopleamt]', $int)";
     
         // Query Succesful (row added)
         if ($conn->query($sql) === FALSE) {
@@ -138,7 +139,6 @@ $valid = true;
         </div>
         <br>
         
-        <p id="myTipTotal" name="tipamt"></p>
         <p name="total" id="total"><?php echo $total?></p> 
         <p name="recordplus" id="recordplus"><?php echo $recordplus?></p>
 
