@@ -67,7 +67,6 @@ $valid = true;
 
         // convert output to integer to match DB value
         $int = (int)$tiptotal;
-        echo $int;
     
         // Build Query
         $sql = "INSERT INTO tiplog (partyName, billAmt, serviceLevel, numPeople, tipAmt)
