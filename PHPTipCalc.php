@@ -134,7 +134,8 @@ $valid = true;
         <input type="number" id="peopleamt" name="peopleamt" placeholder="Number of People">&nbsp; &nbsp; People (>1)
 
         <div class="input-button">
-        <p><input type="submit" value="Calculate Tip"></input></p>
+        <p><input type="submit" value="Calculate Tip"></p>
+        <p><a href="historypage.php"><input type="button" value="History Page"></p>
         </div>
         <br>
         
