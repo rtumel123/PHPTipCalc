@@ -8,7 +8,7 @@ try {
     $pdo = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 
     $sql = 'SELECT * FROM tiplog
-              ORDER BY tipAmt';
+              ORDER BY tipAmt DESC';
 
     $q = $pdo->query($sql);
     $q->setFetchMode(PDO::FETCH_ASSOC);

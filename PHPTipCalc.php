@@ -81,7 +81,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $conn->close();
 
         // display total
-        $total = "Each person's tip will be $" . $tiptotal;
+        $total = "Total tip will be $" . $tiptotal;
         $recordplus = "New record added to database!";
     } else {
         echo $partyErr;
