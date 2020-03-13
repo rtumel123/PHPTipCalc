@@ -4,7 +4,7 @@ body {
 }
 
 #container {
-       height: 525px;
+       height: auto;
        width: 360px;
        margin: 50px auto;
        background: #f7f7f7;
@@ -15,7 +15,7 @@ body {
 }
 
 h4 {
-       background: #5c834f;
+       background:  rgb(34, 193, 195);
        color: white;
        margin: 0;
        padding: 10px 100px;
